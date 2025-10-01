@@ -1,0 +1,6 @@
+.auth-state
+.idea
+node_modules
+.vscode
+test-results
+playwright-report

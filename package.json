@@ -1,0 +1,23 @@
+{
+  "name": "sauce-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "mkdir -p ./.auth-state",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --project=authenticated --debug",
+    "test:debug:no-deps": "playwright test --debug --project=authenticated --no-deps",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.6.1",
+    "prettier": "^3.6.2"
+  }
+}
